@@ -140,7 +140,7 @@ oc adm policy add-role-to-user edit system:serviceaccount:env-ci:pipeline -n env
 
 1. Clone git project
 ```
-git clone https://github.com/vladsancira/openliberty-tekton.git
+git clone https://github.com/altrinkl/openliberty-tekton.git
 cd openliberty-tekton
 ```
 
@@ -185,7 +185,7 @@ More information can be found here : https://github.com/tektoncd/pipeline
 
 1. Clone git project
 ```
-git clone https://github.com/vladsancira/openliberty-tekton.git
+git clone https://github.com/altrinkl/openliberty-tekton.git
 cd openliberty-tekton
 ```
 
