@@ -73,7 +73,7 @@ public class GetAuthor {
 			@QueryParam("apikey") String apikey
 			){
 
-			Author author  = new Author("Vlad Sancira","none","https://github.com/vladsancira/");
+			Author author  = new Author("Vlad Sanciraxxx","none","https://github.com/vladsancira/");
 			Error notfound = new Error("Author not found.","404");
 			Error tooshort = new Error("Name too short. Minimum length is 3 characters.","500");
 			Error noapikey = new Error("Invalid API KEY.","500");		
