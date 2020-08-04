@@ -7,7 +7,7 @@ spec:
   triggers:
     - name: liberty-pipeline-trigger
       bindings:
-        - name: liberty-pipeline-binding
+        - ref: liberty-pipeline-binding
       template:
         name: liberty-pipeline-template
 ---
